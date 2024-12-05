@@ -1,0 +1,79 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<test-results xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="nunit_schema_2.5.xsd" name="Pester" total="14" errors="0" failures="0" not-run="0" inconclusive="0" ignored="0" skipped="0" invalid="0" date="2024-12-05" time="21:06:31">
+  <environment os-version="6.11.9-arch1-1" nunit-version="2.5.8.0" machine-name="codetron" user="alain" cwd="/home/alain/Documents/GitHub/clihelper_modules/JsonCli" user-domain="" clr-version="8.0.10" platform="Linux" />
+  <culture-info current-culture="en-US" current-uiculture="en-US" />
+  <test-suite type="TestFixture" name="Pester" executed="True" result="Success" success="True" time="0.5134" asserts="0" description="Pester">
+    <results>
+      <test-suite type="TestFixture" name="/home/alain/Documents/GitHub/clihelper_modules/JsonCli/Tests/JsonCli.Features.Tests.ps1" executed="True" result="Success" success="True" time="0.3109" asserts="0" description="/home/alain/Documents/GitHub/clihelper_modules/JsonCli/Tests/JsonCli.Features.Tests.ps1">
+        <results>
+          <test-suite type="TestFixture" name="Feature tests: PsCraft" executed="True" result="Success" success="True" time="0.0815" asserts="0" description="Feature tests: PsCraft">
+            <results>
+              <test-suite type="TestFixture" name="Feature tests: PsCraft.Feature 1" executed="True" result="Success" success="True" time="0.0624" asserts="0" description="Feature tests: PsCraft.Feature 1">
+                <results>
+                  <test-case description="Does something expected" name="Feature tests: PsCraft.Feature 1.Does something expected" time="0.0393" asserts="0" success="True" result="Success" executed="True" />
+                </results>
+              </test-suite>
+              <test-suite type="TestFixture" name="Feature tests: PsCraft.Feature 2" executed="True" result="Success" success="True" time="0.0664" asserts="0" description="Feature tests: PsCraft.Feature 2">
+                <results>
+                  <test-case description="Performs another expected action" name="Feature tests: PsCraft.Feature 2.Performs another expected action" time="0.0011" asserts="0" success="True" result="Success" executed="True" />
+                </results>
+              </test-suite>
+            </results>
+          </test-suite>
+        </results>
+      </test-suite>
+      <test-suite type="TestFixture" name="/home/alain/Documents/GitHub/clihelper_modules/JsonCli/Tests/JsonCli.Integration.Tests.ps1" executed="True" result="Success" success="True" time="0.0147" asserts="0" description="/home/alain/Documents/GitHub/clihelper_modules/JsonCli/Tests/JsonCli.Integration.Tests.ps1">
+        <results>
+          <test-suite type="TestFixture" name="Integration tests: PsCraft" executed="True" result="Success" success="True" time="0.0034" asserts="0" description="Integration tests: PsCraft">
+            <results>
+              <test-suite type="TestFixture" name="Integration tests: PsCraft.Functionality Integration" executed="True" result="Success" success="True" time="0.0022" asserts="0" description="Integration tests: PsCraft.Functionality Integration">
+                <results>
+                  <test-case description="Performs expected action" name="Integration tests: PsCraft.Functionality Integration.Performs expected action" time="0.001" asserts="0" success="True" result="Success" executed="True" />
+                </results>
+              </test-suite>
+            </results>
+          </test-suite>
+        </results>
+      </test-suite>
+      <test-suite type="TestFixture" name="/home/alain/Documents/GitHub/clihelper_modules/JsonCli/Tests/JsonCli.Module.Tests.ps1" executed="True" result="Success" success="True" time="0.1879" asserts="0" description="/home/alain/Documents/GitHub/clihelper_modules/JsonCli/Tests/JsonCli.Module.Tests.ps1">
+        <results>
+          <test-suite type="TestFixture" name="Module tests for JsonCli" executed="True" result="Success" success="True" time="0.1264" asserts="0" description="Module tests for JsonCli">
+            <results>
+              <test-suite type="TestFixture" name="Module tests for JsonCli. Confirm valid Manifest file" executed="True" result="Success" success="True" time="0.0721" asserts="0" description="Module tests for JsonCli. Confirm valid Manifest file">
+                <results>
+                  <test-case description="Should contain RootModule" name="Module tests for JsonCli. Confirm valid Manifest file.Should contain RootModule" time="0.0517" asserts="0" success="True" result="Success" executed="True" />
+                  <test-case description="Should contain ModuleVersion" name="Module tests for JsonCli. Confirm valid Manifest file.Should contain ModuleVersion" time="0.0096" asserts="0" success="True" result="Success" executed="True" />
+                  <test-case description="Should contain GUID" name="Module tests for JsonCli. Confirm valid Manifest file.Should contain GUID" time="0.0037" asserts="0" success="True" result="Success" executed="True" />
+                  <test-case description="Should contain Author" name="Module tests for JsonCli. Confirm valid Manifest file.Should contain Author" time="0.0031" asserts="0" success="True" result="Success" executed="True" />
+                  <test-case description="Should contain Description" name="Module tests for JsonCli. Confirm valid Manifest file.Should contain Description" time="0.0024" asserts="0" success="True" result="Success" executed="True" />
+                </results>
+              </test-suite>
+              <test-suite type="TestFixture" name="Module tests for JsonCli. Should export all public functions " executed="True" result="Success" success="True" time="0.0819" asserts="0" description="Module tests for JsonCli. Should export all public functions ">
+                <results>
+                  <test-case description="Compare the number of Function Exported and the PS1 files found in the public folder" name="Module tests for JsonCli. Should export all public functions .Compare the number of Function Exported and the PS1 files found in the public folder" time="0.003" asserts="0" success="True" result="Success" executed="True" />
+                  <test-case description="The number of missing functions should be 0 " name="Module tests for JsonCli. Should export all public functions .The number of missing functions should be 0 " time="0.0051" asserts="0" success="True" result="Success" executed="True" />
+                </results>
+              </test-suite>
+              <test-suite type="TestFixture" name="Module tests for JsonCli. Confirm files are valid Powershell syntax " executed="True" result="Success" success="True" time="0.1054" asserts="0" description="Module tests for JsonCli. Confirm files are valid Powershell syntax ">
+                <results>
+                  <test-suite type="ParameterizedTest" name="Module tests for JsonCli. Confirm files are valid Powershell syntax .ie: each Script/Ps1file should have valid Powershell sysntax" executed="True" result="Success" success="True" time="0.019" asserts="0" description="ie: each Script/Ps1file should have valid Powershell sysntax">
+                    <results>
+                      <test-case description="ie: each Script/Ps1file should have valid Powershell sysntax" name="Module tests for JsonCli. Confirm files are valid Powershell syntax .ie: each Script/Ps1file should have valid Powershell sysntax(/home/alain/Documents/GitHub/clihelper_modules/JsonCli/BuildOutput/JsonCli/1.0/JsonCli.psd1)" time="0.0136" asserts="0" success="True" result="Success" executed="True" />
+                      <test-case description="ie: each Script/Ps1file should have valid Powershell sysntax" name="Module tests for JsonCli. Confirm files are valid Powershell syntax .ie: each Script/Ps1file should have valid Powershell sysntax(/home/alain/Documents/GitHub/clihelper_modules/JsonCli/BuildOutput/JsonCli/1.0/JsonCli.psm1)" time="0.0033" asserts="0" success="True" result="Success" executed="True" />
+                      <test-case description="ie: each Script/Ps1file should have valid Powershell sysntax" name="Module tests for JsonCli. Confirm files are valid Powershell syntax .ie: each Script/Ps1file should have valid Powershell sysntax(/home/alain/Documents/GitHub/clihelper_modules/JsonCli/BuildOutput/JsonCli/1.0/en-US/JsonCli.strings.psd1)" time="0.0021" asserts="0" success="True" result="Success" executed="True" />
+                    </results>
+                  </test-suite>
+                </results>
+              </test-suite>
+              <test-suite type="TestFixture" name="Module tests for JsonCli. Confirm there are no duplicate function names in private and public folders" executed="True" result="Success" success="True" time="0.1237" asserts="0" description="Module tests for JsonCli. Confirm there are no duplicate function names in private and public folders">
+                <results>
+                  <test-case description=" Should have no duplicate functions" name="Module tests for JsonCli. Confirm there are no duplicate function names in private and public folders. Should have no duplicate functions" time="0.0155" asserts="0" success="True" result="Success" executed="True" />
+                </results>
+              </test-suite>
+            </results>
+          </test-suite>
+        </results>
+      </test-suite>
+    </results>
+  </test-suite>
+</test-results>
